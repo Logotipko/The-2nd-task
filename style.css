@@ -41,14 +41,15 @@ html {
     text-align: left;
     color: rgba(31, 32, 65, 0.75);
 }
-
+ 
 body {
     margin: 0;
     padding: 0;
 }
 
-a {
+.header_site-nav {
     text-decoration: none;
+    font-size: 14px;
     color: rgba(31, 32, 65, 0.5);
 }
 
@@ -66,7 +67,7 @@ header {
 }
 
 .header-nav {
-    padding: 1.0714em 0;
+    padding: 9px 0 10px 0;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -76,14 +77,16 @@ header {
     cursor: pointer;
 }
 
-.header_site-nav{
-    display:flex;
-    list-style-type:none;
+.header_site-nav {
+    display: flex;
+    list-style-type: none;
+    margin-left: auto;
 }
 
 .header_user-nav {
     display: flex;
     list-style-type: none;
+    margin-right:7%;
 }
 
 .site-nav_items {
@@ -117,6 +120,13 @@ header {
     font-feature-settings: "liga";
 }
 
+main {
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+    min-width: 320px;
+}
+
 h1 {
     font-family: 'Open Sans';
     font-size: 24px;
@@ -148,6 +158,13 @@ h3 {
     letter-spacing: 0em;
     text-align: left;
     color: #1F2041;
+}
+
+.nav_CTA-text {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: Montserrat;
 }
 
 .CTA-text {

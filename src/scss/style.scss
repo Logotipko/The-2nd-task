@@ -19,53 +19,14 @@ body{
     margin: 0;
 }
 
-main {
-    max-width: 1200px;
-    padding: 0 20px;
-    margin: 0 auto;
-    min-width: 320px;
-}
-
-h1 {
-    font-family: 'Open Sans';
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 30px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #1F2041;
-}
-
-h2 {
-    font-family: 'Open Sans';
-    font-size: 19px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #1F2041;
-}
-
-h3 {
-    font-family: Montserrat;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 15px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #1F2041;
-}
 
 
-.CTA-text {
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 700;
-    font-family: Montserrat;
-}
+/*  header
+    *********************************************************************************
+*/
+
+
+
 
 .header {
     background: #FFFFFF;
@@ -78,13 +39,13 @@ h3 {
     }
 
     &__logo {
-        margin-left: 7%;
-        margin-top: 10px;;
+        margin-left: 9.7%;
+        margin-top: 14px;;
     }
 
     &__nav{
         margin-left: auto;
-        margin-right: 7%;
+        margin-right: 9.7%;;
         line-height: 31px;
         display: flex;
     }
@@ -92,6 +53,8 @@ h3 {
     &__nav_items {
         text-align: center;
         display: flex;
+        margin-top: 26px;
+        margin-right: 20px;
         margin-left: auto;
         padding-left: 0;
     }
@@ -99,26 +62,34 @@ h3 {
     &__nav_item {
         list-style: none;
         margin-right: 20px;
+        &:first-child{
+            margin-left: 20px;
+        }
         &:last-child{
             margin-right: 0px;
         }
     }
 
     &__nav_link{
+        display: flex;
         text-decoration: none;
         font-family: Montserrat;
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
         line-height: 17px;
-        
+
+        white-space: nowrap;
+
         color: rgba(31, 32, 65, 0.5);
     }
 
+
     &__user_items {
+        padding-left: 0;
         text-align: center;
-        padding-left: 20px;
         display: flex;
+        margin-top: 18px;
         
     }
 
@@ -162,6 +133,7 @@ h3 {
 
     &__CTA_text{
         font-weight: 700;
+        color: rgba(31, 32, 65, 0.75);
     }
 }
 .Button_signin{
@@ -175,4 +147,74 @@ h3 {
     border-radius: 22px;
     width: 196px;
     height: 34px;    
+}
+
+
+
+/*  header
+    *********************************************************************************
+*/
+
+.arrowdown{
+    height: 21px;
+    font-family: Material Icons;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 20px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Dark 50% */
+
+    color: rgba(31, 32, 65, 0.5);
+}
+
+main {
+    max-width: 1440px;
+    padding: 0px;
+    margin: 0 auto;
+    min-width: 320px;
+}
+h1 {
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1F2041;
+}
+
+h2 {
+    font-family: 'Open Sans';
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1F2041;
+}
+
+h3 {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1F2041;
+}
+
+.CTA-text {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: Montserrat;
 }
